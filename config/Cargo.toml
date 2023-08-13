@@ -1,10 +1,9 @@
 [package]
-name        = "iwmesh"
+name        = "config"
 version     = "0.0.1"
 edition     = "2021"
 
 description = "low-level WiFi chat/mesh"
 authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 
-[workspace]
-members = ["config", "lib", "server"]
+[dependencies]

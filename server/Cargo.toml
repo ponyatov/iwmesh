@@ -1,0 +1,14 @@
+[package]
+name        = "server"
+version     = "0.0.1"
+edition     = "2021"
+
+description = "web interface server"
+authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+
+[build-dependencies]
+lalrpop = "*"
+
+[dependencies]
+lalrpop-util = {version="*", features = ["lexer"]}
+regex = "*"
