@@ -7,3 +7,4 @@ description = "low-level WiFi chat/mesh"
 authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 
 [dependencies]
+const_format = "*"

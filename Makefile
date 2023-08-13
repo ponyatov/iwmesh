@@ -1,3 +1,11 @@
+.PHONY: all
+all:
+
+.PHONY: format
+format:
+	cargo fmt
+
+WATCH = cargo watch -w config -w lib
 .PHONY: server
 server:
-	cargo watch -w config -w lib -w $@ -x "run -p $@"
+	$(WATCH) -w $@ -x "run -p $@"

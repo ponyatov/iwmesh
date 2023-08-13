@@ -10,5 +10,8 @@ authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 lalrpop = "*"
 
 [dependencies]
+lib    = { path = "../lib"    }
+config = { path = "../config" }
+
 lalrpop-util = {version="*", features = ["lexer"]}
 regex = "*"

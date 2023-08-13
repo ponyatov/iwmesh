@@ -7,3 +7,5 @@ description = "cross-service shared library"
 authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 
 [dependencies]
+# lib    = { path = "../lib"    }
+config = { path = "../config" }
